@@ -1,10 +1,12 @@
 var bob1,bob2,bob3,bob4,bob5;
 let rope,rope1,rope2,rope3,rope4;
 var roof;
+const Constraint=Matter.constraint;
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
+
 
 function preload()
 {
